@@ -122,6 +122,9 @@ GEM
     google-protobuf (4.29.3-x86_64-darwin)
       bigdecimal
       rake (>= 13)
+    google-protobuf (4.29.3-x86_64-linux)
+      bigdecimal
+      rake (>= 13)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.1.0)
@@ -182,6 +185,8 @@ GEM
     nokogiri (1.18.3-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.3-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.3-x86_64-linux-gnu)
       racc (~> 1.4)
     ostruct (0.6.1)
     parallel (1.26.3)
@@ -288,6 +293,8 @@ GEM
       google-protobuf (~> 4.29)
     sass-embedded (1.85.0-x86_64-darwin)
       google-protobuf (~> 4.29)
+    sass-embedded (1.85.0-x86_64-linux-gnu)
+      google-protobuf (~> 4.29)
     securerandom (0.4.1)
     selenium-webdriver (4.29.0)
       base64 (~> 0.2)
@@ -312,6 +319,7 @@ GEM
     thruster (0.1.11)
     thruster (0.1.11-arm64-darwin)
     thruster (0.1.11-x86_64-darwin)
+    thruster (0.1.11-x86_64-linux)
     timeout (0.4.3)
     turbo-rails (2.0.11)
       actionpack (>= 6.0.0)
@@ -340,6 +348,7 @@ GEM
 PLATFORMS
   arm64-darwin-24
   x86_64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
